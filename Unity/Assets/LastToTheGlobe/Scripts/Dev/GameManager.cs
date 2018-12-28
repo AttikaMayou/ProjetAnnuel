@@ -15,7 +15,7 @@ namespace LastToTheGlobe.Scripts
         public override void OnLeftRoom()
         {
             //TODO : handle this properly (not by index)
-            //See the SceneSwitcher script in ressources
+            //See the SceneSwitcher script in resources
             SceneManager.LoadScene(0);
         }
         
