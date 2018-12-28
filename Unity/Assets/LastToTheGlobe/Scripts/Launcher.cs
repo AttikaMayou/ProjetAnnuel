@@ -23,6 +23,14 @@ namespace LastToTheGlobe.Scripts
 
         [SerializeField] private string _gameVersion = "1";
 
+        /// <summary>
+        /// Keep track of the current process. Since connection is asynchronous and is based on
+        /// several callbacks from Photon, we need to keep track of this to properly adjust the
+        /// behaviour when we receive callback by Photon.
+        /// Typically this is used for the OnConnectedToMaster() callback.
+        /// </summary>
+        private bool _isConnecting;
+        
         #endregion
     
         #region MonoBehaviour Callbacks
@@ -52,6 +60,8 @@ namespace LastToTheGlobe.Scripts
             {
                 PhotonNetwork.ConnectUsingSettings();
             }
+
+            _isConnecting = true;
         }
     
         #endregion
@@ -61,6 +71,11 @@ namespace LastToTheGlobe.Scripts
         public void OnConnectedToServer()
         {
             Debug.Log("DemoAnimator/Launcher: OnConnectedToServer() was called by PUN");
+            
+            if (_isConnecting)
+            {
+                PhotonNetwork.JoinRandomRoom();
+            }
         }
 
         //TODO: find the not obsolete parameter to put here
@@ -78,10 +93,18 @@ namespace LastToTheGlobe.Scripts
             PhotonNetwork.CreateRoom(null, new RoomOptions() {MaxPlayers = MaxPlayersPerRoom}, null);
         }
 
-//        public override void OnJoinedRoom()
-//        {
-//            Debug.Log("DemoAnimator/Launcher: OnJoinedRoom() was called by PUN. Now this client is in a room");
-//        }
+       /* public override void OnJoinedRoom()
+        {
+            Debug.Log("DemoAnimator/Launcher: OnJoinedRoom() was called by PUN. Now this client is in a room");
+            
+            if(PhotonNetwork.CurrentRoom.PlayerCount == 1) 
+                {
+                    Debug.Log("We load the 'Room for 1' ");
+                    
+                    //TODO: check this to load levels properly
+                    PhotonNetwork.LoadLevel("Room for 1");
+                }
+        }*/
     
         #endregion
 

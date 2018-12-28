@@ -4,27 +4,28 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 using Photon.Pun;
+using UnityEngine.Serialization;
 
 namespace LastToTheGlobe.Scripts
 {
     public class PhotonHelloWorldScript : MonoBehaviourPunCallbacks
     {
-        [SerializeField]
-        private Button CreateRoomButton;
+        [FormerlySerializedAs("CreateRoomButton")] [SerializeField]
+        private Button _createRoomButton;
 
-        [SerializeField]
-        private Button JoinRoomButton;
+        [FormerlySerializedAs("JoinRoomButton")] [SerializeField]
+        private Button _joinRoomButton;
 
-        [SerializeField]
-        private Text welcomeMessageText;
+        [FormerlySerializedAs("welcomeMessageText")] [SerializeField]
+        private Text _welcomeMessageText;
 
-        [SerializeField]
-        private PhotonView myPhotonView;
+        [FormerlySerializedAs("myPhotonView")] [SerializeField]
+        private PhotonView _myPhotonView;
 
         void Start()
         {
-            CreateRoomButton.interactable = false;
-            JoinRoomButton.interactable = false;
+            _createRoomButton.interactable = false;
+            _joinRoomButton.interactable = false;
             PhotonNetwork.ConnectUsingSettings();
         }
 
@@ -36,17 +37,17 @@ namespace LastToTheGlobe.Scripts
             }
             if(Input.GetKeyDown(KeyCode.Space))
             {
-                myPhotonView.RPC("SayHello", RpcTarget.MasterClient, PhotonNetwork.LocalPlayer.ActorNumber);
+                _myPhotonView.RPC("SayHello", RpcTarget.MasterClient, PhotonNetwork.LocalPlayer.ActorNumber);
             }
         }
 
         public override void OnConnectedToMaster()
         {
-            CreateRoomButton.interactable = true;
-            JoinRoomButton.interactable = true;
+            _createRoomButton.interactable = true;
+            _joinRoomButton.interactable = true;
 
-            CreateRoomButton.onClick.AddListener(AskForRoomCreation);
-            JoinRoomButton.onClick.AddListener(AskForRoomJoin);
+            _createRoomButton.onClick.AddListener(AskForRoomCreation);
+            _joinRoomButton.onClick.AddListener(AskForRoomJoin);
         }
 
         public void AskForRoomCreation()
@@ -61,7 +62,7 @@ namespace LastToTheGlobe.Scripts
 
         public override void OnJoinedRoom()
         {
-            welcomeMessageText.text = PhotonNetwork.IsMasterClient ? "RoomCreated !" : "RoomJoined !";
+            _welcomeMessageText.text = PhotonNetwork.IsMasterClient ? "RoomCreated !" : "RoomJoined !";
         }
 
         [PunRPC]
@@ -69,12 +70,12 @@ namespace LastToTheGlobe.Scripts
         {
             if(PhotonNetwork.IsMasterClient)
             {
-                welcomeMessageText.text = $"Client {playerNum} said Hello !";
-                myPhotonView.RPC("SayHello", RpcTarget.Others, PhotonNetwork.LocalPlayer.ActorNumber);
+                _welcomeMessageText.text = $"Client {playerNum} said Hello !";
+                _myPhotonView.RPC("SayHello", RpcTarget.Others, PhotonNetwork.LocalPlayer.ActorNumber);
             }
             else
             {
-                welcomeMessageText.text = "Server said Hello !";
+                _welcomeMessageText.text = "Server said Hello !";
             }
         }
     }
