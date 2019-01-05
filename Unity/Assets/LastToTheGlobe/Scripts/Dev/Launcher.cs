@@ -9,7 +9,7 @@ namespace LastToTheGlobe.Scripts
         #region Public Variables
 
         /// <summary>
-        /// The PUN loglevel
+        /// The PUN log level
         /// </summary>
         public PunLogLevel LogLevel = PunLogLevel.Informational;
 

@@ -55,14 +55,18 @@ namespace LastToTheGlobe.Scripts.Dev
             
             //TODO: make this false when we finally handle loading properly
             PhotonNetwork.AutomaticallySyncScene = true;
+            _createRoomButton.interactable = false;
+            _joinRoomButton.interactable = false;
+            _connectButton.onClick.AddListener(Connect);
+            _connectButton.interactable = true;
         }
         
         private void Start()
         {
-            _createRoomButton.interactable = false;
-            _joinRoomButton.interactable = false;
-            _connectButton.interactable = true;
-            _connectButton.onClick.AddListener(Connect);
+//            _createRoomButton.interactable = false;
+//            _joinRoomButton.interactable = false;
+//            _connectButton.interactable = true;
+//            _connectButton.onClick.AddListener(Connect);
         }
 
         private void Update()
@@ -95,6 +99,7 @@ namespace LastToTheGlobe.Scripts.Dev
         {
             if (!PhotonNetwork.IsConnected)
             {
+                Debug.Log("connecting...");
                 PhotonNetwork.ConnectUsingSettings();
             }
             _isConnecting = true;

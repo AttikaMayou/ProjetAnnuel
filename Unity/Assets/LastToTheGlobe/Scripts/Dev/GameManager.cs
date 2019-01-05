@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace LastToTheGlobe.Scripts
+namespace LastToTheGlobe.Scripts.Dev
 {
     public class GameManager : MonoBehaviourPunCallbacks
     {
