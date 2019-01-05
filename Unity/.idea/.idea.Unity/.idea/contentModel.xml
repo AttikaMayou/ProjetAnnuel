@@ -10,6 +10,7 @@
         <e p="LastToTheGlobe" t="Include">
           <e p="Scripts" t="Include">
             <e p="Dev" t="Include">
+              <e p="DebugButton.cs" t="Include" />
               <e p="GameController.cs" t="Include" />
               <e p="GameManager.cs" t="Include" />
               <e p="Launcher.cs" t="Include" />

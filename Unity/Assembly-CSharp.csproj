@@ -54,6 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\LastToTheGlobe\Scripts\Dev\DebugButton.cs" />
     <Compile Include="Assets\LastToTheGlobe\Scripts\Dev\GameController.cs" />
     <Compile Include="Assets\LastToTheGlobe\Scripts\Dev\GameManager.cs" />
     <Compile Include="Assets\LastToTheGlobe\Scripts\Dev\Launcher.cs" />
@@ -391,6 +392,12 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>D:/Programmes de cours/Unity Versionning/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>D:/ProjetAnnuelAMA/Unity/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>D:/ProjetAnnuelAMA/Unity/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>D:/ProjetAnnuelAMA/Unity/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -405,12 +412,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>D:/ProjetAnnuelAMA/Unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="Photon3Unity3D">
-      <HintPath>D:/ProjetAnnuelAMA/Unity/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>D:/ProjetAnnuelAMA/Unity/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/Programmes de cours/Unity Versionning/2018.3.0f2/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

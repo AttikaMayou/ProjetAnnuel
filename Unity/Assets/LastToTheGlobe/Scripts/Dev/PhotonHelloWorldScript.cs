@@ -52,7 +52,6 @@ namespace LastToTheGlobe.Scripts.Dev
         private void Awake()
         {
             PhotonNetwork.LogLevel = LogLevel;
-            
             //TODO: make this false when we finally handle loading properly
             PhotonNetwork.AutomaticallySyncScene = true;
             _createRoomButton.interactable = false;
@@ -97,6 +96,7 @@ namespace LastToTheGlobe.Scripts.Dev
 
         public void Connect()
         {
+            Debug.Log("clicked !");
             if (!PhotonNetwork.IsConnected)
             {
                 Debug.Log("connecting...");
