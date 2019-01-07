@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82fb3731-4f41-4ca2-ab53-4c326286fcbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LastToTheGlobe/Scenes/_masterScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LastToTheGlobe/Scenes/_masterScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/PhotonHelloWorldScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/PhotonHelloWorldScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/Launcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/Launcher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/837bcf-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/837bcf-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/9b/9b56598247a545b4b8bec482df34b065" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/9b/9b56598247a545b4b8bec482df34b065" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonChat.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonChat.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonRealtime.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonRealtime.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonUnityNetworking.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonUnityNetworking.Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonUnityNetworking.Utilities.Culling.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonUnityNetworking.Utilities.Culling.Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonUnityNetworking.Utilities.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonUnityNetworking.Utilities.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonUnityNetworking.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonUnityNetworking.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonWebSocket.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonWebSocket.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/1a/1ae8167c2b7d7d94fa94b3624409ef16" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/1a/1ae8167c2b7d7d94fa94b3624409ef16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/1a/1ae8167c2b7d7d94fa94b3624409ef16.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/1a/1ae8167c2b7d7d94fa94b3624409ef16.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a0/a0bc662ef684af5448882d6d35778492" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a0/a0bc662ef684af5448882d6d35778492" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,141 +21,174 @@
     <session id="1179372251">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="4" />
+          <entry key="cs" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="4" />
+          <entry key="C#" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="215" />
+          <entry key="cs" value="1266" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="215" />
+          <entry key="C#" value="1266" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/GameController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/GameManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <marker date="1546646775697" expanded="false" signature="6:71" ph="..." />
-                <marker date="1546646775697" expanded="true" signature="109:2224" ph="{...}" />
-                <marker date="1546646775697" expanded="true" signature="168:2222" ph="{...}" />
-                <marker date="1546646775697" expanded="false" signature="192:1509" ph="Photon Messages" />
-                <marker date="1546646775697" expanded="true" signature="225:347" ph="/// Called when the player left the room. We need to load the Launcher Scene. ... " />
-                <marker date="1546646775697" expanded="true" signature="389:561" ph="{...}" />
-                <marker date="1546646775697" expanded="true" signature="412:512" ph="/* TODO : handle this properly (not by index) ... */" />
-                <marker date="1546646775697" expanded="true" signature="579:1481" ph="/* public override void OnPhotonPlayerConnected(PhotonPlayer other) ... */" />
-                <marker date="1546646775697" expanded="false" signature="1527:1669" ph="Public Methods" />
-                <marker date="1546646775697" expanded="true" signature="1582:1641" ph="{...}" />
-                <marker date="1546646775697" expanded="false" signature="1687:2215" ph="Private Methods" />
-                <marker date="1546646775697" expanded="true" signature="1744:2187" ph="{...}" />
-                <marker date="1546646775697" expanded="true" signature="1801:1936" ph="{...}" />
-                <marker date="1546646775697" expanded="true" signature="1953:2177" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/Launcher.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-              <folding>
-                <marker date="1546646795387" expanded="false" signature="6:59" ph="..." />
-                <marker date="1546646795387" expanded="true" signature="93:3331" ph="{...}" />
-                <marker date="1546646795387" expanded="true" signature="140:3329" ph="{...}" />
-                <marker date="1546646795387" expanded="true" signature="155:553" ph="Public Variables" />
-                <marker date="1546646795387" expanded="true" signature="189:255" ph="/// The PUN log level ... " />
-                <marker date="1546646795387" expanded="true" signature="330:482" ph="[...]" />
-                <marker date="1546646795387" expanded="true" signature="568:1089" ph="Private Variables" />
-                <marker date="1546646795387" expanded="true" signature="664:1025" ph="/// Keep track of the current process. Since connection is asynchronous and is based on ... " />
-                <marker date="1546646795387" expanded="true" signature="1103:1375" ph="MonoBehaviour Callbacks" />
-                <marker date="1546646795387" expanded="true" signature="1164:1288" ph="{...}" />
-                <marker date="1546646795387" expanded="true" signature="1318:1351" ph="{...}" />
-                <marker date="1546646795387" expanded="true" signature="1390:1740" ph="Public Methods" />
-                <marker date="1546646795387" expanded="true" signature="1443:1716" ph="{...}" />
-                <marker date="1546646795387" expanded="true" signature="1496:1572" ph="{...}" />
-                <marker date="1546646795387" expanded="true" signature="1589:1671" ph="{...}" />
-                <marker date="1546646795387" expanded="true" signature="1754:3322" ph="Photon.PunBehaviour CallBacks" />
-                <marker date="1546646795387" expanded="true" signature="1834:2063" ph="{...}" />
-                <marker date="1546646795387" expanded="true" signature="1977:2053" ph="{...}" />
-                <marker date="1546646795387" expanded="true" signature="2173:2295" ph="{...}" />
-                <marker date="1546646795387" expanded="true" signature="2439:2805" ph="{...}" />
-                <marker date="1546646795387" expanded="true" signature="2814:3298" ph="/* public override void OnJoinedRoom() ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/PhotonHelloWorldScript.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-384">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="4" selection-end-column="21" />
-              <folding>
-                <marker date="1546648526932" expanded="true" signature="6:114" ph="..." />
-                <marker date="1546648526932" expanded="true" signature="152:4503" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="222:4501" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="238:552" ph="Public Variable" />
-                <marker date="1546648526932" expanded="true" signature="271:336" ph="/// The PUN LogLevel ... " />
-                <marker date="1546648526932" expanded="true" signature="566:1378" ph="Private Variables" />
-                <marker date="1546648526932" expanded="true" signature="662:798" ph="/// Keep track of current process. ... " />
-                <marker date="1546648526932" expanded="true" signature="1391:2490" ph="MonoBehaviour Callbacks" />
-                <marker date="1546648526932" expanded="true" signature="1452:1859" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="1897:2132" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="1908:2122" ph="/* _createRoomButton.interactable = false; ... */" />
-                <marker date="1546648526932" expanded="true" signature="2163:2466" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="2218:2270" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="2318:2456" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="2496:3499" ph="Public Methods" />
-                <marker date="1546648526932" expanded="true" signature="2568:2633" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="2671:2735" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="2766:3026" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="2856:2982" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="3088:3475" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="3143:3354" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="3371:3465" ph="{...}" />
-                <marker date="1546648526932" expanded="false" signature="3513:4486" ph="Photon Callbacks" />
-                <marker date="1546648526932" expanded="true" signature="3597:3854" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="3899:4166" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="4073:4156" ph="{...}" />
-                <marker date="1546648526932" expanded="true" signature="4247:4458" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.48682386">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/GameController.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+                  <folding>
+                    <marker date="1545961531000" expanded="false" signature="6:94" ph="..." />
+                    <marker date="1545961531000" expanded="true" signature="132:1576" ph="{...}" />
+                    <marker date="1545961531000" expanded="true" signature="194:1574" ph="{...}" />
+                    <marker date="1545961531000" expanded="false" signature="209:964" ph="PhotonMessage" />
+                    <marker date="1545961531000" expanded="true" signature="273:389" ph="{...}" />
+                    <marker date="1545961531000" expanded="true" signature="465:659" ph="{...}" />
+                    <marker date="1545961531000" expanded="true" signature="592:649" ph="{...}" />
+                    <marker date="1545961531000" expanded="true" signature="726:944" ph="{...}" />
+                    <marker date="1545961531000" expanded="true" signature="864:921" ph="{...}" />
+                    <marker date="1545961531000" expanded="false" signature="982:1124" ph="Public Methods" />
+                    <marker date="1545961531000" expanded="true" signature="1037:1096" ph="{...}" />
+                    <marker date="1545961531000" expanded="false" signature="1142:1568" ph="Private Methods" />
+                    <marker date="1545961531000" expanded="true" signature="1199:1540" ph="{...}" />
+                    <marker date="1545961531000" expanded="true" signature="1256:1391" ph="{...}" />
+                    <marker date="1545961531000" expanded="true" signature="1408:1530" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/Launcher.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="32">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
+                  <folding>
+                    <marker date="1546725561004" expanded="false" signature="6:59" ph="..." />
+                    <marker date="1546725561004" expanded="true" signature="97:3335" ph="{...}" />
+                    <marker date="1546725561004" expanded="true" signature="144:3333" ph="{...}" />
+                    <marker date="1546725561004" expanded="false" signature="159:557" ph="Public Variables" />
+                    <marker date="1546725561004" expanded="true" signature="193:259" ph="/// The PUN log level ... " />
+                    <marker date="1546725561004" expanded="true" signature="334:486" ph="[...]" />
+                    <marker date="1546725561004" expanded="false" signature="572:1093" ph="Private Variables" />
+                    <marker date="1546725561004" expanded="true" signature="668:1029" ph="/// Keep track of the current process. Since connection is asynchronous and is based on ... " />
+                    <marker date="1546725561004" expanded="true" signature="1107:1379" ph="MonoBehaviour Callbacks" />
+                    <marker date="1546725561004" expanded="true" signature="1168:1292" ph="{...}" />
+                    <marker date="1546725561004" expanded="true" signature="1322:1355" ph="{...}" />
+                    <marker date="1546725561004" expanded="false" signature="1394:1744" ph="Public Methods" />
+                    <marker date="1546725561004" expanded="true" signature="1447:1720" ph="{...}" />
+                    <marker date="1546725561004" expanded="true" signature="1500:1576" ph="{...}" />
+                    <marker date="1546725561004" expanded="true" signature="1593:1675" ph="{...}" />
+                    <marker date="1546725561004" expanded="false" signature="1758:3326" ph="Photon.PunBehaviour CallBacks" />
+                    <marker date="1546725561004" expanded="true" signature="1838:2067" ph="{...}" />
+                    <marker date="1546725561004" expanded="true" signature="1981:2057" ph="{...}" />
+                    <marker date="1546725561004" expanded="true" signature="2177:2299" ph="{...}" />
+                    <marker date="1546725561004" expanded="true" signature="2443:2809" ph="{...}" />
+                    <marker date="1546725561004" expanded="true" signature="2818:3302" ph="/* public override void OnJoinedRoom() ... */" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/PhotonHelloWorldScript.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="208">
+                  <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+                  <folding>
+                    <marker date="1546648526932" expanded="true" signature="6:114" ph="..." />
+                    <marker date="1546648526932" expanded="true" signature="222:4501" ph="{...}" />
+                    <marker date="1546648526932" expanded="false" signature="238:552" ph="Public Variable" />
+                    <marker date="1546648526932" expanded="true" signature="271:336" ph="/// The PUN LogLevel ... " />
+                    <marker date="1546648526932" expanded="false" signature="566:1378" ph="Private Variables" />
+                    <marker date="1546648526932" expanded="true" signature="662:798" ph="/// Keep track of current process. ... " />
+                    <marker date="1546648526932" expanded="false" signature="1391:2490" ph="MonoBehaviour Callbacks" />
+                    <marker date="1546648526932" expanded="true" signature="1452:1859" ph="{...}" />
+                    <marker date="1546648526932" expanded="true" signature="1897:2132" ph="{...}" />
+                    <marker date="1546648526932" expanded="true" signature="1908:2122" ph="/* _createRoomButton.interactable = false; ... */" />
+                    <marker date="1546648526932" expanded="true" signature="2163:2466" ph="{...}" />
+                    <marker date="1546648526932" expanded="true" signature="2218:2270" ph="{...}" />
+                    <marker date="1546648526932" expanded="true" signature="2318:2456" ph="{...}" />
+                    <marker date="1546648526932" expanded="false" signature="2496:3499" ph="Public Methods" />
+                    <marker date="1546648526932" expanded="true" signature="2568:2633" ph="{...}" />
+                    <marker date="1546648526932" expanded="true" signature="2671:2735" ph="{...}" />
+                    <marker date="1546648526932" expanded="true" signature="2766:3026" ph="{...}" />
+                    <marker date="1546648526932" expanded="true" signature="2856:2982" ph="{...}" />
+                    <marker date="1546648526932" expanded="true" signature="3088:3475" ph="{...}" />
+                    <marker date="1546648526932" expanded="true" signature="3143:3354" ph="{...}" />
+                    <marker date="1546648526932" expanded="true" signature="3371:3465" ph="{...}" />
+                    <marker date="1546648526932" expanded="true" signature="3513:4486" ph="Photon Callbacks" />
+                    <marker date="1546648526932" expanded="true" signature="3597:3854" ph="{...}" />
+                    <marker date="1546648526932" expanded="true" signature="3899:4166" ph="{...}" />
+                    <marker date="1546648526932" expanded="true" signature="4073:4156" ph="{...}" />
+                    <marker date="1546648526932" expanded="true" signature="4247:4458" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/GameManager.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="256">
+                  <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+                  <folding>
+                    <marker date="1546786256463" expanded="false" signature="6:171" ph="..." />
+                    <marker date="1546786256463" expanded="true" signature="209:3918" ph="{...}" />
+                    <marker date="1546786256463" expanded="true" signature="268:3916" ph="{...}" />
+                    <marker date="1546786256463" expanded="true" signature="283:604" ph="Public Variable" />
+                    <marker date="1546786256463" expanded="true" signature="316:381" ph="/// The PUN LogLevel ... " />
+                    <marker date="1546786256463" expanded="false" signature="622:1108" ph="Private Variables" />
+                    <marker date="1546786256463" expanded="true" signature="718:854" ph="/// Keep track of current process. ... " />
+                    <marker date="1546786256463" expanded="false" signature="1126:1513" ph="MonoBehaviour Callbacks" />
+                    <marker date="1546786256463" expanded="true" signature="1187:1485" ph="{...}" />
+                    <marker date="1546786256463" expanded="false" signature="1531:2848" ph="Photon Messages" />
+                    <marker date="1546786256463" expanded="true" signature="1564:1686" ph="/// Called when the player left the room. We need to load the Launcher Scene. ... " />
+                    <marker date="1546786256463" expanded="true" signature="1728:1900" ph="{...}" />
+                    <marker date="1546786256463" expanded="true" signature="1751:1851" ph="/* TODO : handle this properly (not by index) ... */" />
+                    <marker date="1546786256463" expanded="true" signature="1918:2820" ph="/* public override void OnPhotonPlayerConnected(PhotonPlayer other) ... */" />
+                    <marker date="1546786256463" expanded="false" signature="2866:2928" ph="Photon Callbacks" />
+                    <marker date="1546786256463" expanded="false" signature="2946:3363" ph="Public Methods" />
+                    <marker date="1546786256463" expanded="true" signature="2999:3235" ph="{...}" />
+                    <marker date="1546786256463" expanded="true" signature="3053:3191" ph="{...}" />
+                    <marker date="1546786256463" expanded="true" signature="3276:3335" ph="{...}" />
+                    <marker date="1546786256463" expanded="false" signature="3381:3909" ph="Private Methods" />
+                    <marker date="1546786256463" expanded="true" signature="3438:3881" ph="{...}" />
+                    <marker date="1546786256463" expanded="true" signature="3495:3630" ph="{...}" />
+                    <marker date="1546786256463" expanded="true" signature="3647:3871" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -183,10 +203,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/Launcher.cs" />
         <option value="$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/PhotonHelloWorldScript.cs" />
         <option value="$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/DebugButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/Launcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -197,9 +217,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -261,11 +281,14 @@
       <updated>1546646459102</updated>
       <workItem from="1546646464960" duration="552000" />
       <workItem from="1546648362374" duration="1005000" />
+      <workItem from="1546723492336" duration="5442000" />
+      <workItem from="1546785674004" duration="1191000" />
+      <workItem from="1546851948797" duration="615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1557000" />
+    <option name="totallyTimeSpent" value="8805000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,7 +302,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.252349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -296,7 +319,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -324,102 +347,86 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/GameController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/DebugButton.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        <state relative-caret-position="128">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/GameManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/GameController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="144">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
           <folding>
-            <marker date="1546646775697" expanded="false" signature="6:71" ph="..." />
-            <marker date="1546646775697" expanded="true" signature="109:2224" ph="{...}" />
-            <marker date="1546646775697" expanded="true" signature="168:2222" ph="{...}" />
-            <marker date="1546646775697" expanded="false" signature="192:1509" ph="Photon Messages" />
-            <marker date="1546646775697" expanded="true" signature="225:347" ph="/// Called when the player left the room. We need to load the Launcher Scene. ... " />
-            <marker date="1546646775697" expanded="true" signature="389:561" ph="{...}" />
-            <marker date="1546646775697" expanded="true" signature="412:512" ph="/* TODO : handle this properly (not by index) ... */" />
-            <marker date="1546646775697" expanded="true" signature="579:1481" ph="/* public override void OnPhotonPlayerConnected(PhotonPlayer other) ... */" />
-            <marker date="1546646775697" expanded="false" signature="1527:1669" ph="Public Methods" />
-            <marker date="1546646775697" expanded="true" signature="1582:1641" ph="{...}" />
-            <marker date="1546646775697" expanded="false" signature="1687:2215" ph="Private Methods" />
-            <marker date="1546646775697" expanded="true" signature="1744:2187" ph="{...}" />
-            <marker date="1546646775697" expanded="true" signature="1801:1936" ph="{...}" />
-            <marker date="1546646775697" expanded="true" signature="1953:2177" ph="{...}" />
+            <marker date="1545961531000" expanded="false" signature="6:94" ph="..." />
+            <marker date="1545961531000" expanded="true" signature="132:1576" ph="{...}" />
+            <marker date="1545961531000" expanded="true" signature="194:1574" ph="{...}" />
+            <marker date="1545961531000" expanded="false" signature="209:964" ph="PhotonMessage" />
+            <marker date="1545961531000" expanded="true" signature="273:389" ph="{...}" />
+            <marker date="1545961531000" expanded="true" signature="465:659" ph="{...}" />
+            <marker date="1545961531000" expanded="true" signature="592:649" ph="{...}" />
+            <marker date="1545961531000" expanded="true" signature="726:944" ph="{...}" />
+            <marker date="1545961531000" expanded="true" signature="864:921" ph="{...}" />
+            <marker date="1545961531000" expanded="false" signature="982:1124" ph="Public Methods" />
+            <marker date="1545961531000" expanded="true" signature="1037:1096" ph="{...}" />
+            <marker date="1545961531000" expanded="false" signature="1142:1568" ph="Private Methods" />
+            <marker date="1545961531000" expanded="true" signature="1199:1540" ph="{...}" />
+            <marker date="1545961531000" expanded="true" signature="1256:1391" ph="{...}" />
+            <marker date="1545961531000" expanded="true" signature="1408:1530" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/Launcher.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="32">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <marker date="1546646795387" expanded="false" signature="6:59" ph="..." />
-            <marker date="1546646795387" expanded="true" signature="93:3331" ph="{...}" />
-            <marker date="1546646795387" expanded="true" signature="140:3329" ph="{...}" />
-            <marker date="1546646795387" expanded="true" signature="155:553" ph="Public Variables" />
-            <marker date="1546646795387" expanded="true" signature="189:255" ph="/// The PUN log level ... " />
-            <marker date="1546646795387" expanded="true" signature="330:482" ph="[...]" />
-            <marker date="1546646795387" expanded="true" signature="568:1089" ph="Private Variables" />
-            <marker date="1546646795387" expanded="true" signature="664:1025" ph="/// Keep track of the current process. Since connection is asynchronous and is based on ... " />
-            <marker date="1546646795387" expanded="true" signature="1103:1375" ph="MonoBehaviour Callbacks" />
-            <marker date="1546646795387" expanded="true" signature="1164:1288" ph="{...}" />
-            <marker date="1546646795387" expanded="true" signature="1318:1351" ph="{...}" />
-            <marker date="1546646795387" expanded="true" signature="1390:1740" ph="Public Methods" />
-            <marker date="1546646795387" expanded="true" signature="1443:1716" ph="{...}" />
-            <marker date="1546646795387" expanded="true" signature="1496:1572" ph="{...}" />
-            <marker date="1546646795387" expanded="true" signature="1589:1671" ph="{...}" />
-            <marker date="1546646795387" expanded="true" signature="1754:3322" ph="Photon.PunBehaviour CallBacks" />
-            <marker date="1546646795387" expanded="true" signature="1834:2063" ph="{...}" />
-            <marker date="1546646795387" expanded="true" signature="1977:2053" ph="{...}" />
-            <marker date="1546646795387" expanded="true" signature="2173:2295" ph="{...}" />
-            <marker date="1546646795387" expanded="true" signature="2439:2805" ph="{...}" />
-            <marker date="1546646795387" expanded="true" signature="2814:3298" ph="/* public override void OnJoinedRoom() ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/DebugButton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <marker date="1546648798800" expanded="true" signature="6:78" ph="..." />
-            <marker date="1546648798800" expanded="true" signature="116:519" ph="{...}" />
-            <marker date="1546648798800" expanded="true" signature="163:517" ph="{...}" />
-            <marker date="1546648798800" expanded="true" signature="246:316" ph="{...}" />
-            <marker date="1546648798800" expanded="true" signature="338:371" ph="{...}" />
-            <marker date="1546648798800" expanded="true" signature="394:423" ph="{...}" />
-            <marker date="1546648798800" expanded="true" signature="457:511" ph="{...}" />
+            <marker date="1546725561004" expanded="false" signature="6:59" ph="..." />
+            <marker date="1546725561004" expanded="true" signature="97:3335" ph="{...}" />
+            <marker date="1546725561004" expanded="true" signature="144:3333" ph="{...}" />
+            <marker date="1546725561004" expanded="false" signature="159:557" ph="Public Variables" />
+            <marker date="1546725561004" expanded="true" signature="193:259" ph="/// The PUN log level ... " />
+            <marker date="1546725561004" expanded="true" signature="334:486" ph="[...]" />
+            <marker date="1546725561004" expanded="false" signature="572:1093" ph="Private Variables" />
+            <marker date="1546725561004" expanded="true" signature="668:1029" ph="/// Keep track of the current process. Since connection is asynchronous and is based on ... " />
+            <marker date="1546725561004" expanded="true" signature="1107:1379" ph="MonoBehaviour Callbacks" />
+            <marker date="1546725561004" expanded="true" signature="1168:1292" ph="{...}" />
+            <marker date="1546725561004" expanded="true" signature="1322:1355" ph="{...}" />
+            <marker date="1546725561004" expanded="false" signature="1394:1744" ph="Public Methods" />
+            <marker date="1546725561004" expanded="true" signature="1447:1720" ph="{...}" />
+            <marker date="1546725561004" expanded="true" signature="1500:1576" ph="{...}" />
+            <marker date="1546725561004" expanded="true" signature="1593:1675" ph="{...}" />
+            <marker date="1546725561004" expanded="false" signature="1758:3326" ph="Photon.PunBehaviour CallBacks" />
+            <marker date="1546725561004" expanded="true" signature="1838:2067" ph="{...}" />
+            <marker date="1546725561004" expanded="true" signature="1981:2057" ph="{...}" />
+            <marker date="1546725561004" expanded="true" signature="2177:2299" ph="{...}" />
+            <marker date="1546725561004" expanded="true" signature="2443:2809" ph="{...}" />
+            <marker date="1546725561004" expanded="true" signature="2818:3302" ph="/* public override void OnJoinedRoom() ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/PhotonHelloWorldScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="208">
+          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
           <folding>
             <marker date="1546648526932" expanded="true" signature="6:114" ph="..." />
-            <marker date="1546648526932" expanded="true" signature="152:4503" ph="{...}" />
             <marker date="1546648526932" expanded="true" signature="222:4501" ph="{...}" />
-            <marker date="1546648526932" expanded="true" signature="238:552" ph="Public Variable" />
+            <marker date="1546648526932" expanded="false" signature="238:552" ph="Public Variable" />
             <marker date="1546648526932" expanded="true" signature="271:336" ph="/// The PUN LogLevel ... " />
-            <marker date="1546648526932" expanded="true" signature="566:1378" ph="Private Variables" />
+            <marker date="1546648526932" expanded="false" signature="566:1378" ph="Private Variables" />
             <marker date="1546648526932" expanded="true" signature="662:798" ph="/// Keep track of current process. ... " />
-            <marker date="1546648526932" expanded="true" signature="1391:2490" ph="MonoBehaviour Callbacks" />
+            <marker date="1546648526932" expanded="false" signature="1391:2490" ph="MonoBehaviour Callbacks" />
             <marker date="1546648526932" expanded="true" signature="1452:1859" ph="{...}" />
             <marker date="1546648526932" expanded="true" signature="1897:2132" ph="{...}" />
             <marker date="1546648526932" expanded="true" signature="1908:2122" ph="/* _createRoomButton.interactable = false; ... */" />
             <marker date="1546648526932" expanded="true" signature="2163:2466" ph="{...}" />
             <marker date="1546648526932" expanded="true" signature="2218:2270" ph="{...}" />
             <marker date="1546648526932" expanded="true" signature="2318:2456" ph="{...}" />
-            <marker date="1546648526932" expanded="true" signature="2496:3499" ph="Public Methods" />
+            <marker date="1546648526932" expanded="false" signature="2496:3499" ph="Public Methods" />
             <marker date="1546648526932" expanded="true" signature="2568:2633" ph="{...}" />
             <marker date="1546648526932" expanded="true" signature="2671:2735" ph="{...}" />
             <marker date="1546648526932" expanded="true" signature="2766:3026" ph="{...}" />
@@ -427,11 +434,43 @@
             <marker date="1546648526932" expanded="true" signature="3088:3475" ph="{...}" />
             <marker date="1546648526932" expanded="true" signature="3143:3354" ph="{...}" />
             <marker date="1546648526932" expanded="true" signature="3371:3465" ph="{...}" />
-            <marker date="1546648526932" expanded="false" signature="3513:4486" ph="Photon Callbacks" />
+            <marker date="1546648526932" expanded="true" signature="3513:4486" ph="Photon Callbacks" />
             <marker date="1546648526932" expanded="true" signature="3597:3854" ph="{...}" />
             <marker date="1546648526932" expanded="true" signature="3899:4166" ph="{...}" />
             <marker date="1546648526932" expanded="true" signature="4073:4156" ph="{...}" />
             <marker date="1546648526932" expanded="true" signature="4247:4458" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/LastToTheGlobe/Scripts/Dev/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <marker date="1546786256463" expanded="false" signature="6:171" ph="..." />
+            <marker date="1546786256463" expanded="true" signature="209:3918" ph="{...}" />
+            <marker date="1546786256463" expanded="true" signature="268:3916" ph="{...}" />
+            <marker date="1546786256463" expanded="true" signature="283:604" ph="Public Variable" />
+            <marker date="1546786256463" expanded="true" signature="316:381" ph="/// The PUN LogLevel ... " />
+            <marker date="1546786256463" expanded="false" signature="622:1108" ph="Private Variables" />
+            <marker date="1546786256463" expanded="true" signature="718:854" ph="/// Keep track of current process. ... " />
+            <marker date="1546786256463" expanded="false" signature="1126:1513" ph="MonoBehaviour Callbacks" />
+            <marker date="1546786256463" expanded="true" signature="1187:1485" ph="{...}" />
+            <marker date="1546786256463" expanded="false" signature="1531:2848" ph="Photon Messages" />
+            <marker date="1546786256463" expanded="true" signature="1564:1686" ph="/// Called when the player left the room. We need to load the Launcher Scene. ... " />
+            <marker date="1546786256463" expanded="true" signature="1728:1900" ph="{...}" />
+            <marker date="1546786256463" expanded="true" signature="1751:1851" ph="/* TODO : handle this properly (not by index) ... */" />
+            <marker date="1546786256463" expanded="true" signature="1918:2820" ph="/* public override void OnPhotonPlayerConnected(PhotonPlayer other) ... */" />
+            <marker date="1546786256463" expanded="false" signature="2866:2928" ph="Photon Callbacks" />
+            <marker date="1546786256463" expanded="false" signature="2946:3363" ph="Public Methods" />
+            <marker date="1546786256463" expanded="true" signature="2999:3235" ph="{...}" />
+            <marker date="1546786256463" expanded="true" signature="3053:3191" ph="{...}" />
+            <marker date="1546786256463" expanded="true" signature="3276:3335" ph="{...}" />
+            <marker date="1546786256463" expanded="false" signature="3381:3909" ph="Private Methods" />
+            <marker date="1546786256463" expanded="true" signature="3438:3881" ph="{...}" />
+            <marker date="1546786256463" expanded="true" signature="3495:3630" ph="{...}" />
+            <marker date="1546786256463" expanded="true" signature="3647:3871" ph="{...}" />
           </folding>
         </state>
       </provider>

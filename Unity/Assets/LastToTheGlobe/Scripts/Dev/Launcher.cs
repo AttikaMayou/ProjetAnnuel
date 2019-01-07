@@ -2,7 +2,7 @@
 using Photon.Realtime;
 using UnityEngine;
 
-namespace LastToTheGlobe.Scripts
+namespace LastToTheGlobe.Scripts.Dev
 {
     public class Launcher : MonoBehaviourPun
     {
